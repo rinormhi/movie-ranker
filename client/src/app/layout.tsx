@@ -5,17 +5,13 @@ import { Footer } from "./components/footer/footer";
 import { ThemeProvider, createTheme } from "@mui/material";
 import { themeOptions } from "./theme";
 
-const theme = createTheme(themeOptions);
-// export const metadata: Metadata = {
-//   title: "MovieRanker",
-//   description: "Made by Rinor",
-// };
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const theme = createTheme(themeOptions);
+
   return (
     <ThemeProvider theme={theme}>
       <html lang="en">
