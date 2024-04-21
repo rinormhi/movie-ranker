@@ -13,13 +13,13 @@ export function Header() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/filme">Filme</Link>
+              <Link href="/movies">Movies</Link>
             </li>
             <li>
-              <Link href="/serien">Serien</Link>
+              <Link href="/series">Series</Link>
             </li>
             <li>
-              <Link href="/listen">Listen</Link>
+              <Link href="/lists">Lists</Link>
             </li>
           </ul>
         </nav>
