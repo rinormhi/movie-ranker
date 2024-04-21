@@ -16,7 +16,7 @@ export default function Page() {
         </Button>
       </ButtonGroup>
       <Typography variant="subtitle2">
-        The social network for film lovers. Also available on
+        The social network for film lovers.
       </Typography>
     </Container>
   );
